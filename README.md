@@ -7,4 +7,4 @@
 
 ![hi](https://github.com/elyargeek/mp_p_game_Guess_number/assets/155006952/5d7e99a2-9623-42dc-893f-13185846c920)
 
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" alt="Teacup Without Handle" width="25" /> hey... This code is not clean... (I'm new comer)
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" alt="Teacup Without Handle" width="25" /> hey... This code may not be very clean, but I tried 😊
