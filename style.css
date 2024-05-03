@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  font-family: "Comfortaa";
+}
+
+/*container*/
+.header_top {
+  color: #fff;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  border-bottom: 7px solid #fff;
+}
+
+.text_between {
+  font-size: 28px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  transform: translate(-1%, -1%);
+}
+
+.text_center {
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  top: 28%;
+  left: 35%;
+  /* transform: translate(-35%, -28%); */
+}
+
+.secret_number {
+  background-color: #fff;
+  width: 230px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%; /*43*/
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number_text {
+  font-size: 80px;
+  color: #222222;
+}
+
+.header_bottom {
+  color: #fff;
+  display: flex;
+  width: 100%;
+  height: 338px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_1 {
+  font-family: "Comfortaa";
+  border-radius: 7px;
+  font-size: 35px;
+  width: 175px;
+  height: 70px;
+  position: absolute;
+  top: 66%;
+  left: 15%;
+  transform: translate(-15%, -65%);
+  text-align: center;
+  border: none;
+}
+
+.btn_check {
+  font-family: "Comfortaa";
+  border-radius: 7px;
+  font-size: 35px;
+  width: 161px;
+  height: 70px;
+  position: absolute;
+  top: 77%;
+  left: 15%;
+  transform: translate(-16%, -79%);
+  margin: 5px;
+  border: 1px solid lightgray;
+}
+
+.message {
+  font-size: 30px;
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  /* transform: translate(-73%, -60%); */
+}
+
+.label-score {
+  font-size: 30px;
+  position: absolute;
+  top: 67%;
+  left: 65%;
+  /* transform: translate(-73%, -67%); */
+}
+
+.label-highscore {
+  font-size: 30px;
+  position: absolute;
+  top: 74%;
+  left: 65%;
+  /* transform: translate(-73%, -74%); */
+}
+
+.btn_guidance {
+  font-family: "Comfortaa";
+  border-radius: 7px;
+  font-size: 20px;
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  top: 82%;
+  left: 65%;
+  /* transform: translate(-73%, -82%); */
+  border: none;
+}
+
+.guidance_text {
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  top: 82%;
+  left: 75%;
+  margin-left: 10px;
+  /* transform: translate(-83%, -82%); */
+}
+
+/*------------------------------------------------------------------*/
+
+.show-modal {
+  font-family: "Comfortaa";
+  font-size: 27px;
+  border-radius: 7px;
+  width: 115px;
+  height: 60px;
+  position: absolute;
+  top: 11%;
+  left: 1%;
+  border: none;
+  /* transform: translate(-1%, -11%); */
+}
+
+.btn_again {
+  font-family: "Comfortaa";
+  font-size: 27px;
+  width: 115px;
+  height: 60px;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  border-radius: 7px;
+  border: none;
+  /* transform: translate(-1%, -2%); */
+}
+
+.hidden {
+  display: none;
+}
+
+.div_help {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  height: 260px;
+  color: #222222;
+  background-color: white;
+  padding: 96px;
+  border-radius: 5px;
+  box-shadow: 0 48px 80px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.text_help {
+  color: #222222;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.div_help h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 5%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.close-modal {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 40px;
+  color: #222222;
+  cursor: pointer;
+  border: none;
+  background: none;
+}

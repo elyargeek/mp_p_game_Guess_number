@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+    />
+  </head>
+  <body>
+    <div class="header_top">
+      <p class="text_between">(Between 1 and 20)</p>
+      <p class="text_center">Guess My Number!</p>
+      <button class="btn_again">again</button>
+      <div class="secret_number"><p class="number_text">?</p></div>
+      <div class="help">
+        <button class="show-modal">help</button>
+      </div>
+      <div class="div_help hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Game guide 🦉</h1>
+        <hr />
+        <p class="text_help">
+          Number guessing game: In this game you have to find a hidden number -
+          This number is between 1 and 20 - The sooner you guess the answer, the
+          more points you get - You lose one point for each guess - You can also
+          use the guidance option at the bottom of the page - This option will
+          tell you whether the secret number is odd or even, and using this
+          option will deduct three points from you -I hope you enjoy the game ❤️
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
+    <div class="header_bottom">
+      <div class="left">
+        <form>
+          <input class="input_1" type="number" placeholder="guess" />
+        </form>
+        <button class="btn_check">check</button>
+      </div>
+      <div class="right">
+        <button class="btn_guidance">guidance</button>
+        <p class="guidance_text">.....</p>
+        <p class="message">start guessing ...</p>
+        <p class="label-score">💯 Score : <span class="score"> 20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore : <span class="highscore">0</span>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
