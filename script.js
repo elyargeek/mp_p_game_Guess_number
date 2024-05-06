@@ -10,6 +10,16 @@ const showMessage = function (message) {
   document.querySelector(".message").textContent = message;
 };
 
+// chek number corect
+function validateInput(input) {
+  const value = input.value;
+  const isValid = /^([1-9]|1[0-9]|20)$/.test(value);
+
+  if (!isValid) {
+    input.value = value.slice(0, -1);
+  }
+}
+
 // help btn ----------------------------------------
 const model = document.querySelector(".div_help");
 const overlay = document.querySelector(".overlay");
