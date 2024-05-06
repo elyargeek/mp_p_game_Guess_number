@@ -37,7 +37,13 @@
     <div class="header_bottom">
       <div class="left">
         <form>
-          <input class="input_1" type="number" placeholder="guess" />
+          <input
+            class="input_1"
+            type="number"
+            placeholder="guess"
+            title="Please choose a number between 1 and 20"
+            oninput="validateInput(this)"
+          />
         </form>
         <button class="btn_check">check</button>
       </div>
